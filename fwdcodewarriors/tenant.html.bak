@@ -1,0 +1,13 @@
+
+<html>
+<h2 align="center">TENANT PAGE</h2>
+<body background="house.jpg" width="400px" height="400px">
+<a href="independenthomes.php"><button style="height:400px;width=800px;color=red">Independent house</button></a>
+<a href="apartment.php"><button style="height:400px;width=800px;color=red">Apartment</button>
+<a href="roomshare.html"><button style="height:400px;width=800px;color=red">Share a room</button>
+<a href="paying_guest.php"><button style="height:400px;width=800px;color=red">Paying guest</button>
+
+
+</body>
+</html>
+

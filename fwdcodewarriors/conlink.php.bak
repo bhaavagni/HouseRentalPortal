@@ -1,0 +1,27 @@
+<?php
+$c=mysql_connect("localhost","root","");
+$l=mysql_select_db("sample",$c);
+$q="select * from ind";
+$count=0;
+$r=mysql_query($q);
+session_start();
+
+while($res=mysql_fetch_array($r))
+{
+echo '<form action="indvalues.php" method="post" >';
+	echo "owner:".$res['name']."\t"."location of house:".$res['location']."\t"."price:".$res['erent']."<br>";
+       $id=$res['name'];?>
+	   <input type = "hidden" name="abc" value="<?php echo $id ?>"/>
+	   <button name= <?php echo $id ?> value=<?php echo $id ?> > 
+	   Contact</button>
+
+	<?php
+		 echo ' </form>'; 
+}
+?>
+
+
+
+	
+
+	

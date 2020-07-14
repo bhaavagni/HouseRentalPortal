@@ -1,0 +1,23 @@
+<html>
+
+<body bgcolor="lightgreen">
+<center>
+<form action="sample_guest.html">
+<h2><u>Choose your preferences</u></h2>
+Family type:<select><option>Joint Family</option>
+<option>Nuclear Family</option><option>Bachelor</option>
+</select>
+<br><br>
+Languages preferd:<input type="checkbox" name="Telugu" value="Telugu">Telugu<input type="checkbox" name="Hindi" value="Hindi">Hindi<input type="checkbox" name="English" value="English">English<br><br>
+Food Preferences:<select><option>vegetarian</option>
+<option>Non-vegetarian</option><option>eggetarian</option>
+</select>
+<br><br>
+<input type="submit"  value="submit"><br><br>
+</form>
+</center>
+
+</body>
+</html>
+
+
